@@ -1,5 +1,3 @@
--- models/orders_incremental.sql
-
 {{ config(
     materialized='incremental',
     unique_key='id'
